@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse:collapse;}
+    th,td{text-align: center;}
+}</style>
+
+<head>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>    
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+
+    <link rel="stylesheet" media="all" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery-ui.css"/>
+    <link rel="stylesheet" media="all" type="text/css" href="css/jquery.lightbox.css"/>
+    
+    <script>
+    $(document).ready(function(){
+        $('.collapsible').collapsible();
+    });
+    </script>
+    <script>
+    $(document).ready(function(){
+        $('.tabs').tabs();
+    });
+    </script>
+
+    <meta charset="utf-8"/>
+    <meta name="author" content="Ayaan Hussain">
+    <meta name="keywords" content="CMU, Information Systems 2022">
+    <meta name="description" content="Ayaans lab test site">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <title>Ayaan Hussain</title>
+
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo">Ayaan Hussain</a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li class="active"><a href="index.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+        
+<div class="container">
+    <ul class="collapsible">
+        <li>
+            <div class="collapsible-header">Case Analysis Project</div>
+            <div class="collapsible-body"><span>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</span></div>
+        </li>
+        <li>
+            <div class="collapsible-header">Web Development Project</div>
+            <div class="collapsible-body"><span>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</span></div>
+        </li>
+        <li>
+            <div class="collapsible-header">Database Project</div>
+            <div class="collapsible-body"><span>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</span></div>
+        </li>
+    </ul>
+    <br/><br/>
+    <div class="row">
+        <div class="col s12">
+            <ul class="tabs">
+                <li class="tab col s3"><a class="active" href="#tab1">Case Analysis Project</a></li>
+                <li class="tab col s3"><a href="#tab2">Web Development Project</a></li>
+                <li class="tab col s3"><a href="#tab3">Database Project</a></li>
+            </ul>
+        </div>
+        <div id="tab1" class="col s12">
+            <p>Sed et risus nibh. Duis lacinia nec ipsum sed mollis. Vestibulum vitae hendrerit elit. Morbi tellus eros, auctor a pretium sit amet, pulvinar id diam. Pellentesque volutpat velit sed ante viverra sagittis nec at libero. Fusce sed augue nibh. Pellentesque eu mi risus. Nam vel justo consectetur sem tempus aliquet eu sit amet magna. Mauris nec congue dolor. Ut neque ante, fringilla eget lectus dictum, semper tincidunt metus. Maecenas iaculis sed augue quis cursus. Nunc molestie ex vel volutpat eleifend.</p>
+        </div>
+        <div id="tab2" class="col s12">
+            <p>Sed et risus nibh. Duis lacinia nec ipsum sed mollis. Vestibulum vitae hendrerit elit. Morbi tellus eros, auctor a pretium sit amet, pulvinar id diam. Pellentesque volutpat velit sed ante viverra sagittis nec at libero. Fusce sed augue nibh. Pellentesque eu mi risus. Nam vel justo consectetur sem tempus aliquet eu sit amet magna. Mauris nec congue dolor. Ut neque ante, fringilla eget lectus dictum, semper tincidunt metus. Maecenas iaculis sed augue quis cursus. Nunc molestie ex vel volutpat eleifend.</p>
+        </div>
+        <div id="tab3" class="col s12">
+            <p>Sed et risus nibh. Duis lacinia nec ipsum sed mollis. Vestibulum vitae hendrerit elit. Morbi tellus eros, auctor a pretium sit amet, pulvinar id diam. Pellentesque volutpat velit sed ante viverra sagittis nec at libero. Fusce sed augue nibh. Pellentesque eu mi risus. Nam vel justo consectetur sem tempus aliquet eu sit amet magna. Mauris nec congue dolor. Ut neque ante, fringilla eget lectus dictum, semper tincidunt metus. Maecenas iaculis sed augue quis cursus. Nunc molestie ex vel volutpat eleifend.</p>
+        </div>
+    </div>
+    <!--
+    <div id="content">
+        <h3>Projects</h3>
+    <div id="accordion">
+        <h4>Case Analysis Project</h4>
+        <div><p>
+            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+        </p></div>
+        <h4>Web Development Project</h4>
+        <div><p>
+            Maecenas vitae diam vitae ex eleifend ultrices quis id mauris. Donec a enim sagittis nisi gravida placerat. Etiam tellus dui, aliquam ac felis vel, pretium faucibus libero. Nunc sed blandit risus, vitae tincidunt mauris. Fusce in lorem in enim suscipit posuere sit amet imperdiet nibh. Nulla ipsum ante, pretium sit amet mauris ut, consequat blandit mauris. Sed ante quam, elementum at dignissim non, scelerisque non massa.
+        </p></div>
+        <h4>Database Project</h4>
+        <div><p>
+            Mauris eros risus, posuere et urna vel, imperdiet maximus arcu. Ut elementum enim vel ipsum consectetur imperdiet. Duis feugiat purus a orci consectetur finibus. Pellentesque placerat, sem eu tincidunt suscipit, turpis elit interdum metus, in mollis leo est id ante. Etiam condimentum congue enim ut molestie. Ut hendrerit, leo at commodo tincidunt, felis orci luctus mauris, a tincidunt lorem mi vitae orci. Nunc iaculis et tellus sed lacinia. Curabitur sit amet est ipsum. Curabitur non faucibus mauris.
+        </p>
+        <ul>
+           <li>List item one</li>
+           <li>List item two</li>
+           <li>List item three</li>
+        </ul>
+        </div>
+        <div id="tabs">
+                <ul>
+                    <li><a href="#tabs-1">Case Analysis Project</a></li>
+                    <li><a href="#tabs-2">Web Development Project</a></li>
+                    <li><a href="#tabs-3">Database Project</a></li>
+                </ul>
+    
+                <div id="tabs-1">
+                    <p>Maecenas augue purus, posuere sed tortor eget, euismod iaculis nisi. Ut cursus semper interdum. Proin eu enim semper, lacinia lectus vel, dignissim mi. Vivamus finibus id elit quis viverra. Nulla lacus tellus, suscipit eu interdum vitae, suscipit a felis. Pellentesque ac diam ac nibh maximus molestie. Sed vel laoreet nunc. Suspendisse fringilla dolor sem, vel tempus sapien ultricies ut. Nam mattis non orci vel aliquet. Donec velit nisl, egestas id est vitae, elementum mattis purus. Proin sit amet convallis lectus. Duis lorem tortor, blandit eget lorem eget, ornare laoreet ex. Fusce vitae vestibulum dolor, vel bibendum elit. Nunc laoreet erat odio, et bibendum odio accumsan eget.
+                    </p>
+                </div>
+                <div id="tabs-2">
+                    <p>Maecenas et tempor enim. Donec condimentum sollicitudin ex, nec cursus augue posuere vel. Proin sapien felis, rutrum id tempus molestie, mollis eget tellus. Morbi nec maximus orci, ut fermentum neque. Pellentesque gravida sapien sit amet nibh viverra ultricies. In ultrices dolor sed sodales varius. Mauris finibus metus eu porta porttitor. Nullam iaculis risus vitae purus mattis, sed sollicitudin nisl tincidunt. Nulla facilisi.
+                    </p>
+                </div>
+                <div id="tabs-3">
+                    <p>Sed et risus nibh. Duis lacinia nec ipsum sed mollis. Vestibulum vitae hendrerit elit. Morbi tellus eros, auctor a pretium sit amet, pulvinar id diam. Pellentesque volutpat velit sed ante viverra sagittis nec at libero. Fusce sed augue nibh. Pellentesque eu mi risus. Nam vel justo consectetur sem tempus aliquet eu sit amet magna. Mauris nec congue dolor. Ut neque ante, fringilla eget lectus dictum, semper tincidunt metus. Maecenas iaculis sed augue quis cursus. Nunc molestie ex vel volutpat eleifend.
+                    </p>
+                </div>
+        </div></div>
+        <div id="gallery">
+            <div id="galleryThumbnail"><div id="thmbnlShadow">
+                <a href="images/image1.jpg" title="The case analysis project evaluated a variety of enterprise kayer concepts at Cirque du Soleil."><img src="images/image1thumb.jpg" alt="image 1"/></a>
+            </div>
+        </div>
+        <div id="galleryThumbnail"><div id="thmbnlShadow">
+            <a href="images/image2.jpg" title="The The web Development project utilized several front-end web development techniques using HTML, CSS and Javascript."><img src="images/image2thumb.jpg" alt="image 2"/></a>
+        </div>
+    </div>
+    <div id="galleryThumbnail"><div id="thmbnlShadow">
+        <a href="images/image3.jpg" title="The database project included an entity relationship diagram and several data creation and manipulation techniques in MySQL."><img src="images/image3thumb.jpg" alt="image 3"/></a>
+    </div>
+</div>
+</br></br></br>
+        </div>
+</br>-->
+       <table style="width:60%">
+           <th colspan="3">Course Projects</th>
+           <tr>
+                <th>Title</th>
+                <th>Course</th>
+                <th>Semester</th>
+            </tr>
+            <tr onmouseover="showDesc('An Analysis of Alibaba (yes Jack Ma\'s thing)');" onmouseout="hideDesc();">
+               <td>Case Analysis Project</td>
+               <td>67-250</td>
+               <td>Spring 2019</td>
+            </tr>
+            <tr onmouseover="showDesc('We build websites and stuff');" onmouseout="hideDesc();">
+                <td>Web Development Project</td>
+                <td>67-250</td>
+                <td>Spring 2019</td>
+            </tr>
+            <tr onmouseover="showDesc('IDK play with databases and organize stuff and things \(unlike my life.\)');" onmouseout="hideDesc();">
+                <td>Database Project</td>
+                <td>67-250</td>
+                <td>Spring 2019</td>
+            </tr>
+       </table>
+    </br>
+       <div id="description"></div>
+    </div>
+
+    <footer class="page-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col l12 s12">
+                        <a href="mailto:ayaanh@cmu.edu"><img src="images/email.png"></a>
+                        <a href="http://www.linkedin.com" target="_blank"><img src="images/linkedIn.png"></a>
+                        <a href="http://facebook.com/ayaanh4" target="_blank"><img src="images/fb.png"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    &copy; Ayaan Hussain<br/>
+                    5000 Forbes Avenue<br/>
+                    Pittsburgh, PA 15213<br/>
+                    412-268-0000 (h)<br/>
+                    412-555-5555 (c)<br/><br/>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

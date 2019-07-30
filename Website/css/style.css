@@ -1,0 +1,134 @@
+
+.footer{
+    font-weight: bold;
+}
+
+/*centering data and adding dynamic font sizes and width centering everything */
+.container-fluid{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50rem;
+    padding: 2rem 0 2rem 0;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+    align-content: center;
+}
+
+#cover-heading{
+    text-align: center;
+    padding: 0 0 2rem 0;
+}
+
+
+#carouselExampleCaptions{
+    background-color: black;
+}
+
+.card-body{
+    text-align: left;
+}
+
+
+#Desc{
+    text-align: center;
+}
+/*centering data and adding dynamic font sizes and width centering everything */
+footer{
+    margin-left: auto;
+    margin-right: auto;
+    width: 75vw;
+    padding: 2rem 0 2rem 0;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+
+.card-header button{
+    color: black;
+}
+
+#ContAbout ul.nav{
+    text-align: center
+
+}
+
+#ContAbout ul.nav li{
+    display: inline-block;
+}
+
+#ContAbout ul{
+    list-style: none;
+    margin-right: 3%;
+}
+
+#v-pills-home{
+    text-align: left;
+}
+
+#ehh{
+    font-weight: bold;
+}
+
+#contact{
+    font-size: 1rem;
+}
+
+#adress{
+    text-align: center;
+    font-size: .75rem;
+}
+
+
+#map{
+    justify-content: center;
+}
+
+#timings{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+
+#nIn{
+    width: 50%;
+}
+
+/*getting rid of spinner in number entry field */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+
+}
+
+.dropdown-item.active{
+    background-color: #58290c !important;
+}
+
+#contact .nav-link.active{
+    background-color: #58290c !important;
+    color: white;
+
+}
+#contact .nav-link{
+    color: gray;
+}
+
+#butt{
+    background-color: #58290c;
+}
+
+#rec{
+    margin: 0 0 0 1.1rem;
+}
+
+#colorB a{
+    color: #0c5829 !important;
+}
+
+#footerH{
+    padding: 0;
+    margin: 0 0 0 -1rem;
+}

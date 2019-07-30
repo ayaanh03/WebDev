@@ -1,0 +1,49 @@
+@media only screen and (max-width: 800px)
+{
+    /*removing all styling and resetting position */
+    footer{
+        all:unset !important;
+        position: absolute;
+        left:0px;
+    }
+    /*making nav autoscale */
+    nav{
+        width: 90vw !important;
+        font-size: 3vw !important;
+    }
+    /*removing original logo */
+    #logo{
+        display: none;
+    }
+    /*placing a logo on the left side of the screen */
+    #logom{
+        display: block !important;
+        
+        width: 50px !important;
+        height: 50px;
+        position: absolute;
+        left: 10px;
+        top: -5px;
+    }
+    /*centering data and adding dynamic font sizes and width, centering everything for smaller screens*/
+    .container-fluid{
+        margin-left: auto !important;
+        margin-right: 20vw  !important;
+        width: 75vw !important;
+        padding: 0 4vw 0 4vw !important;
+        justify-content: center;
+        text-align: center;
+        font-size: 2vw !important;
+        align-content: center;
+    }
+    h3{
+        font-size: 5vw;
+    }
+    /*reducing button size */
+    #butt{
+        width: 15vw !important;
+        height: 7vw !important;
+        font-size: 2vw;
+    }
+
+}
